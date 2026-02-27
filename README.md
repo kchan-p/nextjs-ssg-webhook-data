@@ -1,6 +1,6 @@
 # nextjs-ssg-webhook-data
 
-https://github.com/kchan-p/nextjs-ssg-webhook<br>
+nextjs-ssg-webhook(https://github.com/kchan-p/nextjs-ssg-webhook)<br>
 のデータ配信サーバー<br>
 
 ---
@@ -13,6 +13,9 @@ https://github.com/kchan-p/nextjs-ssg-webhook<br>
 
 ## 開発方法
 
+1.npm install<br>
+2.npm run dev<br>
+※http://localhost:3001 で起動
 
 ## ビルド
 
