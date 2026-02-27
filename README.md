@@ -3,6 +3,11 @@
 nextjs-ssg-webhook(https://github.com/kchan-p/nextjs-ssg-webhook)<br>
 のデータ配信サーバー<br>
 
+/api/site/ : サイトデータを返す
+/api/posts/ : コンテンツ一覧を返す
+/api/posts/<slug> : <slug>に対応するコンテンツデータを返す
+/api/latest/ : 新着データを返す
+
 ---
 
 ## デモ
@@ -15,7 +20,7 @@ nextjs-ssg-webhook(https://github.com/kchan-p/nextjs-ssg-webhook)<br>
 
 1.npm install<br>
 2.npm run dev<br>
-※http://localhost:3001 で起動
+※http://localhost:3001 で起動する
 
 ## ビルド
 

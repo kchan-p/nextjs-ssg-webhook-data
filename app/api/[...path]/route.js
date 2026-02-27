@@ -5,12 +5,12 @@ const siteData = {
   siteDescription: "テストサイトです"
 };
 const contentsData = [
-  { slug: "top", title: "TOP Page", content: "このページはトップページです" },
-  { slug: "post1", title: "テストページ1", content: "このページはテストページ1です" },
-  { slug: "post2", title: "テストページ2", content: "このページはテストページ2です" },
-  { slug: "post3", title: "テストページ3", content: "このページはテストページ3です" },
-  { slug: "post4", title: "テストページ4", content: "このページはテストページ4です" },
-  { slug: "post5", title: "テストページ5", content: "このページはテストページ5です" },
+  { slug: "top", title: "TOP Page", content: '<p>このページは<span style="color:red">トップページ</span>です</p>' },
+  { slug: "post1", title: "テストページ1", content: '<p>このページは<span style="color:pink">テストページ1</span>です</p>' },
+  { slug: "post2", title: "テストページ2", content: '<p>このページは<span style="color:green">テストページ2</span>です</p>' },
+  { slug: "post3", title: "テストページ3", content: '<p>このページは<span style="color:brown">テストページ3</span>です</p>' },
+  { slug: "post4", title: "テストページ4", content: '<p>このページは<span style="color:aqua">テストページ4</span>です</p>' },
+  { slug: "post5", title: "テストページ5", content: '<p>このページは<span style="color:orange">テストページ5</span>です</p>' },
 ];
 
 const setDate = () => {
