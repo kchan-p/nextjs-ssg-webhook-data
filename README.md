@@ -2,11 +2,11 @@
 
 nextjs-ssg-webhook(https://github.com/kchan-p/nextjs-ssg-webhook)<br>
 のデータ配信サーバー<br>
-
-/api/site/ : サイトデータを返す
-/api/posts/ : コンテンツ一覧を返す
-/api/posts/<slug> : <slug>に対応するコンテンツデータを返す
-/api/latest/ : 新着データを返す
+<br>
+/api/site/ : サイトデータを返す<br>
+/api/posts/ : コンテンツ一覧を返す<br>
+/api/posts/<slug> : <slug>に対応するコンテンツデータを返す<br>
+/api/latest/ : 新着データを返す<br>
 
 ---
 
